@@ -25,4 +25,4 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/devops-flask-app:latest
-            ${{ secrets.DOCKERHUB_TOKEN }}/devops-flask-app:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/devops-flask-app:${{ github.sha }}
